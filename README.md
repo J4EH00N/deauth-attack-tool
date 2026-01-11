@@ -78,7 +78,6 @@ sudo airmon-ng start wlan0
 
 ## 🔗 Blog Post
 For a detailed explanation of the code and packet structure, check out my blog post:
-[Link to your blog post]
-
+[https://sjh4ck3r.tistory.com/manage/newpost/60?type=post&returnURL=ENTRY]
 ---
 *Created by SJH4CK3R*
