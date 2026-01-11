@@ -1,0 +1,13 @@
+# Binaries
+deauth
+dump
+
+# Object files
+*.o
+dump.c
+Makefile
+# Notes and drafts
+blog_subject_prompt
+pre_blog
+blog_draft.txt
+blog_draft.md
