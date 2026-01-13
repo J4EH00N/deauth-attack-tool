@@ -4,25 +4,7 @@
 #include <string.h>
 #include <unistd.h>
 
-typedef struct {
-    u_int8_t version;
-    u_int8_t pad;
-    u_int16_t len;
-    u_int32_t present;
-} __attribute__((packed)) radiotap_header_t;
-
-typedef struct {
-    u_int8_t frame_control[2];
-    u_int16_t duration;
-    u_int8_t receiver_address[6];
-    u_int8_t transmitter_address[6];
-    u_int8_t bssid[6];
-    u_int16_t sequence_control;
-} __attribute__((packed)) dot11_header_t;
-
-typedef struct {
-    u_int16_t reason_code;
-} __attribute__((packed)) deauth_body_t;
+#include "protocol.h"
 
 int parse_mac_address(char *mac_str, u_int8_t *mac_addr) {
     if (strlen(mac_str) != 17) return -1;
